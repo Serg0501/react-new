@@ -7,7 +7,7 @@ export default class HelloClass extends Component {
     const {name, surname} = this.props;
     return (
         <>
-            <p>Hello, {name} {surname}!</p>
+            <p>Кто там? {name} {surname}!</p>
         </>
     )
   }

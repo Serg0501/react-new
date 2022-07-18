@@ -1,0 +1,12 @@
+.counter{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: lightgray;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}

@@ -1,0 +1,17 @@
+.cardContainer{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
