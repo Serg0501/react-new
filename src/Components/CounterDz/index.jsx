@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './CounterDz.module.css'
+import styles from './CounterDz.module.scss'
 
 export default class CounterDZ extends Component {
     state = {count : 0}

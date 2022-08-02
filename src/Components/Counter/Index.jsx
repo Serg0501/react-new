@@ -52,3 +52,5 @@ Counter.propTypes = {
 Counter.defaultProps = {
   step: 1,
 }
+
+
