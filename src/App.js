@@ -11,8 +11,8 @@ import './App.css';
 //import ClockFun from './Components/ClockFun';
 //import Calendar from './Components/Calendar';
 //import Slider from './Components/Slider';
-import ManagedContest from './Components/ManagedContest';
-
+//import ManagedContest from './Components/ManagedContest';
+import ManagedContestRFC from './Components/ManagedContestRFC';
 
 /*
     const card = {
@@ -35,7 +35,7 @@ import ManagedContest from './Components/ManagedContest';
     return (
       <>
 
-        <ManagedContest />
+        <ManagedContestRFC />
         {/*<Counter step={5}/>
         <ItemCard item={card}/>
         <SecondItemCard item={card2}/>
@@ -46,6 +46,7 @@ import ManagedContest from './Components/ManagedContest';
         <ClockFun step = {-1}/>
         <Clock />
         <Slider />
+        <ManagedContest />
         */}
       </>
     )

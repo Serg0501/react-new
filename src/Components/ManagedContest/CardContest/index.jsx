@@ -10,8 +10,8 @@ export default class CardContest extends Component {
 
 
         <div className={styles.cardConteiner}>
-          <h3 className={styles.cardHeader}>{this.props.data.head}</h3>
-          <p className={styles.cardFooter}>{this.props.data.body}</p>
+          <h3>{this.props.data.head}</h3>
+          <p>{this.props.data.body}</p>
         </div> 
     </>
   )

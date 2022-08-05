@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainConteiner { 
+    display: flex;
+    flex-direction: column;
+}
+
+.headerConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardMainConteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buttonConteiner{
+    margin-top: 50px;
+    margin-left: 43%;
+}
