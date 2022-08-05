@@ -10,7 +10,8 @@ import './App.css';
 //import Clock from './Components/Clock';
 //import ClockFun from './Components/ClockFun';
 //import Calendar from './Components/Calendar';
-import Slider from './Components/Slider';
+//import Slider from './Components/Slider';
+import ManagedContest from './Components/ManagedContest';
 
 
 /*
@@ -33,8 +34,8 @@ import Slider from './Components/Slider';
   render() {
     return (
       <>
-     <Slider />
-     
+
+        <ManagedContest />
         {/*<Counter step={5}/>
         <ItemCard item={card}/>
         <SecondItemCard item={card2}/>
@@ -42,8 +43,9 @@ import Slider from './Components/Slider';
         <CounterFun step = {10} />
         <CounterDZ />
         <Calendar />
-         <ClockFun step = {-1}/>
-      <Clock />
+        <ClockFun step = {-1}/>
+        <Clock />
+        <Slider />
         */}
       </>
     )
